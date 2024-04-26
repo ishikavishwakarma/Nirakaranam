@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from './Footer';
 import { FaArrowAltCircleRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 const Training = () => {
   return (
     <div>  
@@ -19,7 +20,7 @@ const Training = () => {
        <div className="div py-10">
 <h1 className='text-3xl  py-5 font-bold uppercase text-center'>Programs for Training</h1>
        <div className="div h-fit place-items-center grid p-10 grid-cols-3 w-full ">
-        <a href="/training/welders">
+        <Link to="/training/welders">
 
        <div
       className="flex flex-col rounded-lg h-96 w-96 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-[#92CC4F] md:flex-row">
@@ -38,8 +39,8 @@ const Training = () => {
         <FaArrowAltCircleRight className='text-white text-3xl' />
       </div>
     </div>
-        </a>
-    <a href="/training/agri">
+        </Link>
+    <Link to="/training/agri">
           
        <div
       className="flex flex-col rounded-lg h-96 w-96 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-[#92CC4F] md:flex-row">
@@ -58,8 +59,8 @@ const Training = () => {
         <FaArrowAltCircleRight className='text-white text-3xl' />
       </div>
     </div>
-        </a>
-    <a href="/training/graphics">
+        </Link>
+    <Link to="/training/graphics">
           
        <div
       className="flex flex-col rounded-lg h-96 w-96 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] bg-[#92CC4F] md:flex-row">
@@ -78,7 +79,7 @@ const Training = () => {
         <FaArrowAltCircleRight className='text-white text-3xl' />
       </div>
     </div>
-        </a>
+        </Link>
     
        </div>
        </div>
