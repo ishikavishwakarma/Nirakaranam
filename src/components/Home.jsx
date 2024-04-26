@@ -35,7 +35,7 @@ const Home = () => {
         {/* <Navbar/> */}
         <div className="div font-gilroy bg-[#fff] ">
             <div className="div h-[89vh] flex items-center justify-between px-20 w-full ">
-            <a href='/training'>
+            <Link to='/training'>
 
             <div className="box h-96 rounded-3xl w-96 ">
             <div className="card">
@@ -101,8 +101,9 @@ const Home = () => {
       </div>
     </div>
             </div>
-</a>
-         <a href="/business">
+</Link>
+
+         <Link to="/business">
 
             <div className="box h-96 rounded-3xl w-96 ">
             <div className="card">
@@ -169,9 +170,8 @@ const Home = () => {
     </div>
             </div>
          
-         </a>
-         <a href="/network">
-
+         </Link>
+         <Link to="/network">
             <div className="box h-96 rounded-3xl w-96 ">
             <div className="card">
       <div className="content">
@@ -236,7 +236,7 @@ const Home = () => {
       </div>
     </div>
             </div>
-         </a>
+         </Link>
 
             </div>
         </div>
